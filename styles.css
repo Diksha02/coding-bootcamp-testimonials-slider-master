@@ -1,0 +1,25 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.testimonials-background{
+    margin-top: 5%;
+    position: relative;
+    left: 50%;
+}
+
+.fluid-container{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    margin: 0 15%;
+}
+
+.testimonials-img{
+    float: right;
+}
+.testimonials-text{
+    margin: 20%;
+}
