@@ -1,25 +1,82 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.signature{
+    font-size: 20px;
+    font-weight: 600;
+}
+.designation{
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-.testimonials-background{
-    margin-top: 5%;
-    position: relative;
-    left: 50%;
-}
-
 .fluid-container{
-    text-align: left;
-    position: absolute;
-    top: 20%;
-    margin: 0 15%;
+    margin: 3%;
+    padding: 0;
+}
+#testimonials{
+    position: relative;
+    z-index: 2;
+    top: 7%;
+    vertical-align: center;
 }
 
 .testimonials-img{
     float: right;
+    position: relative;
+    z-index: 4;
 }
+
 .testimonials-text{
-    margin: 20%;
+
+    margin: 10% 0 0 0;
+    position: relative;
+    z-index: 5;
+    
 }
+.carousel-item{
+    margin: 0;
+    padding: 1% 7%;
+    position: relative;
+    height: 100rem;
+}
+.active.carousel-item{
+    margin: 0;
+    padding: 1% 7%;
+    position: relative;
+    height: 37rem;
+    
+}
+
+/* Patterns */
+.pattern-curve{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+
+}
+.pattern-quotes{
+    position: absolute;
+    z-index: 1;
+    
+}
+.pattern-bg{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
